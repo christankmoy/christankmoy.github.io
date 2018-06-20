@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Buenard|Lato');
+* { margin:0; padding:0; box-sizing:border-box; }
+h1 {
+	text-align: center;
+	margin: 3em;
+	line-height: 1em;
+}
+h2 {
+	font-family:'Buenard', serif;
+	font-size: 24px;
+	border-bottom: 2px solid black;
+	display: inline-block;
+	line-height: 1em;
+}
+section {margin: 2em;
+}
+p {
+	padding: .5em;
+}
+
+#intro {
+		font-family:'Buenard', serif;
+		font-size: 34px;
+		font-weight: bold;
+		line-height: 1.5em;
+		margin: 3em;
+}
+
+#bio {
+	background-color: #E0DFE0;
+	padding: 2em;
+}
+
+#list {
+		font-family:'Lato', sans-serif;
+		font-size: 18px;
+		font-weight: lighter;
+		line-height: 2em;
+		padding-left: 2em;
+		margin: 0 auto;
+	}
+
+h3 {
+		font-family:'Lato', sans-serif;
+		font-size: 14px;
+		text-decoration: none;
+		color: rgba(150,150,150,80);
+		font-weight: lighter;
+		margin: 0 auto;
+}
+span  {
+		font-style: italic; 
+}
+body {
+	font-family:'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	line-height: 1.5;
+}
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+#work {
+	text-align: 0 center;
+	column-count: 3;
+	column-gap:20px;
+}
+nav {
+	color: #F507A2;
+	text-decoration:none;
+	margin: 0 auto;
+	text-align: center;
+	word-spacing: 100px;
+}
+form {
+	width: 600px;
+	margin: auto;
+	padding: 150px, auto;
+}
+input, textarea {
+	display:block;
+	font: 400 14px 'Lato';
+	outline:none;
+	margin-bottom:2em;
+	padding: 1em;
+	width:100%;
+}
+input[type="submit"] {
+    width: 50%;
+    outline:none;
+
+}
+footer {
+	background: #080000;
+	color: white;
+	border-bottom: 1px solid white;
+	text-align: center;
+	padding-top: .5em;
+}
