@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Buenard|Lato');
+* { margin:0; padding:0; box-sizing:border-box; }
+h1 {
+	text-align: center;
+	margin: 3em;
+	line-height: 1em;
+}
+h2 {
+	font-family:'Buenard', serif;
+	font-size: 24px;
+	border-bottom: 2px solid black;
+	display: inline-block;
+	line-height: 1em;
+}
+h3 {
+	font-family:'Lato', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	color: rgba(150,150,150,80);
+	font-weight: lighter;
+	margin: 0 auto;
+}
+nav {
+	background-color: #f4319d;
+	color: white;
+	display: block;
+	padding: 15px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 2em;
+	word-spacing: 100px;
+}
+nav a:hover {
+	background-color: white;
+	color: #f4319d;
+	padding: 15px;
+	line-height: 2em;
+}
+body {
+	font-family:'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	line-height: 1.5;
+}
+form {
+	width: 600px;
+	margin: auto;
+	padding: 150px, auto;
+}
+input, textarea {
+	display:block;
+	font: 400 14px 'Lato';
+	outline:none;
+	margin-bottom:2em;
+	padding: 1em;
+	width:100%;
+}
+input[type="submit"] {
+    width: 50%;
+    outline:none;
+    padding: 2em;
+    background-color: #f4319d;
+    color: white;
+}
+footer {
+	clear: both;
+	background: #080000;
+	color: white;
+	border-bottom: 1px solid white;
+	text-align: center;
+	padding-top: .5em;
+	width: 100%;
+}
+footer a {
+	display: inline-block;
+}
+#intro {
+		font-family:'Buenard', serif;
+		font-size: 34px;
+		font-weight: bold;
+		line-height: 1.5em;
+		padding: 3em;
+}
+#bio {
+	background-color: #E0DFE0;
+	padding: 2em;
+}
+#bio img {
+	float: left;
+	padding: 1em 1em 1em 0;
+}
+#bio div {
+	float: right;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#work {
+	padding-top: 2em;
+	clear: both;
+	margin: 0;
+}
+#work img {
+	width: 300px;
+}
+#work .clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#column1 {
+	float: left;
+	width: 25%;
+	padding: 5%;
+	margin: 0;
+	text-align: center;
+}
+#column2 {
+	float: left;
+	width: 25%;
+	padding: 5%;
+	margin: 0;
+	text-align: center;
+}
+#column3 {
+	float: left;
+	width: 25%;
+	padding: 5%;
+	margin: 0;
+	text-align: center;
+}
+#column4 {
+	float: left;
+	width: 25%;
+	padding: 5%;
+	margin: 0;
+	text-align: center;
+}
+#list {
+		font-family:'Lato', sans-serif;
+		font-size: 18px;
+		font-weight: lighter;
+		line-height: 2em;
+		padding-left: 2em;
+		margin: 0 auto;
+	}
